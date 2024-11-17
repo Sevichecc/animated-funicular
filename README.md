@@ -2,7 +2,9 @@
 
 A cat-powered one-page resume template 🐱
 
-[Preview](https://xxx.com)
+[Preview](https://meow.seviche.cc)
+
+![](./example.png)
 
 ## ✨ Features
 
@@ -21,12 +23,12 @@ A cat-powered one-page resume template 🐱
 
 1. Clone this repository
 ```bash
-git clone https://github.com/xxx/meow-resume.git
+git clone https://github.com/Sevichecc/meow-one-page-resume
 ```
 
-2. Modify content in `index.html` (Chinese) or `en-resume/index.html` (English)
+1. Modify content in  `index.html` (English) or `cn/index.html`.
 
-3. Deploy to your favorite platform
+2. Deploy to your favorite platform
 
 ## 📄 Printing
 
@@ -48,7 +50,7 @@ git clone https://github.com/xxx/meow-resume.git
 
 ## 📝 License
 
-MIT License © [Your Name]
+MIT License © Sevi Che
 
 ---
 
