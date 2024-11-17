@@ -13,7 +13,7 @@ A cat-powered one-page resume template 🐱
 - 🎨 Clean and elegant design based on Spectre.css
 - 🌏 Multi-language support (English & Chinese)
 - 🖨️ Perfect printing experience (A4 paper)
-- 🤖 ATS/AST friendly
+- 🤖 AST friendly
 - ⚡️ No build tools required, pure static pages
 - 🎯 Highly customizable and easy to modify
 - 📦 Small file size, fast loading
