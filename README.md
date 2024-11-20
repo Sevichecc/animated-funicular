@@ -26,9 +26,11 @@ A cat-powered one-page resume template 🐱
 git clone https://github.com/Sevichecc/meow-one-page-resume
 ```
 
-1. Modify content in  `index.html` (English) or `cn/index.html`.
+2. Modify content in  `index.html` (English) or `cn/index.html`.
 
-2. Deploy to your favorite platform
+3. Deploy to your favorite platform
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSevichecc%2Fmeow-one-page-resume)
 
 ## 📄 Printing
 
