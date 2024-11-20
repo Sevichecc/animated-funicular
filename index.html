@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,6 +16,23 @@
     * {
       font-size: 14px;
       font-family: 'Open Sans', sans-serif;
+    }
+
+    header .columns .d-inline-block {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    @media (max-width: 600px) {
+      header .columns .d-inline-block {
+        justify-content: flex-start;
+      }
+
+      ul {
+        justify-content: flex-start;
+        margin-left: 0.2rem;
+      }
     }
 
     h1 {
@@ -156,7 +173,7 @@
     <div class="container grid-md pt-2">
       <header class="mb-0">
         <div class="columns">
-          <div class="column col-8">
+          <div class="column col-8 col-sm-12">
             <h1 class="text-primary text-left text-italic">Coding Cat</h1>
             <p class="text-muted text-small">
               Experienced
@@ -167,17 +184,10 @@
               balls while maintaining optimal cuddle performance.
             </p>
           </div>
-          <div class="column col-4">
+          <div class="column col-4 col-sm-12">
             <ul class="text-right" style="list-style-type: none">
               <li>
-                <span
-                  class="d-inline-block"
-                  style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-end;
-                  "
-                >
+                <span class="d-inline-block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -197,14 +207,7 @@
                 </span>
               </li>
               <li>
-                <span
-                  class="d-inline-block"
-                  style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-end;
-                  "
-                >
+                <span class="d-inline-block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -225,14 +228,7 @@
                 </span>
               </li>
               <li>
-                <span
-                  class="d-inline-block"
-                  style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-end;
-                  "
-                >
+                <span class="d-inline-block">
                   <i
                     class="icon icon-mail text-muted"
                     style="margin-right: 4px"
@@ -241,14 +237,7 @@
                 </span>
               </li>
               <li>
-                <span
-                  class="d-inline-block"
-                  style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-end;
-                  "
-                >
+                <span class="d-inline-block">
                   <i
                     class="icon icon-link text-muted"
                     style="margin-right: 4px"
@@ -264,7 +253,7 @@
       <div class="divider"></div>
       <section class="columns">
         <h2 class="column text-primary">Technical Skills</h2>
-        <div class="column col-10">
+        <div class="column col-10 col-sm-12">
           <ul class="text-small">
             <li class="mt-0">
               <b>Hunting Skills:</b> Night hunting, Agile jumping, Stealth
@@ -298,7 +287,7 @@
       <div class="divider"></div>
       <section class="columns">
         <h2 class="column text-primary">Work Experience</h2>
-        <div class="column col-10">
+        <div class="column col-10 col-sm-12">
           <div class="section-text">
             <div class="columns">
               <div class="column">
@@ -396,7 +385,7 @@
       <div class="divider"></div>
       <section class="columns">
         <h2 class="column text-primary">Projects</h2>
-        <div class="column col-10">
+        <div class="column col-10 col-sm-12">
           <div class="section-text">
             <a href="https://seviche.cc" target="_blank">
               <h3 class="mb-2">Catnip Tracker - Treat Distribution Platform</h3>
@@ -528,7 +517,7 @@
       <div class="divider"></div>
       <section class="columns mb-2">
         <h2 class="column text-primary">Education</h2>
-        <div class="column col-10">
+        <div class="column col-10 col-sm-12">
           <div class="section-text col-right">
             <div class="columns">
               <div class="column mb-1">
