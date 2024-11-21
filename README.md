@@ -52,7 +52,9 @@ git clone https://github.com/Sevichecc/meow-one-page-resume
 
 ## 📝 License
 
-MIT License © Sevi
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/).
+
+This project uses [Spectre.css](https://picturepan2.github.io/spectre/), which is licensed under the MIT License.
 
 ---
 
