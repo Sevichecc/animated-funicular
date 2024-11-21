@@ -154,6 +154,10 @@
       .divider {
         margin: 4pt 0;
       }
+
+      .action-buttons {
+        display: none;
+      }
     }
 
     .background-gradient {
@@ -169,6 +173,34 @@
         rgba(0, 163, 255, 0) 50%,
         rgba(0, 163, 255, 0) 100%
       );
+    }
+
+    .action-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      gap: 8px;
+      z-index: 100;
+    }
+
+    .action-button {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: white;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .action-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     }
   </style>
   <body class="lang-zh-hans">
@@ -447,7 +479,7 @@
               <li>
                 <a href="https://github.com/Sevichecc/M-OAuth" target="_blank">
                   <strong>M-喵喵</strong> </a
-                >：使用喵喵.js和猫抓开发的猫咪认证工具
+                >：使用喵喵.js和猫抓开��的猫咪认证工具
               </li>
               <li>
                 <a
@@ -500,6 +532,13 @@
           </div>
         </div>
       </section>
+    </div>
+    <div class="action-buttons">
+      <button class="action-button" onclick="window.print()" title="打印简历">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M19 8h-1V3H6v5H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3M8 5h8v3H8zm8 12v2H8v-4h8zm2-2v-2H6v2H4v-4c0-.55.45-1 1-1h14c.55 0 1 .45 1 1v4z"/>
+        </svg>
+      </button>
     </div>
   </body>
 </html>
